@@ -1,0 +1,23 @@
+{
+    "name":"node-mongo-mr",
+    "version":"0.0.0",
+    "description":"ERROR: No README.md file found!",
+    "main":"index.js",
+    "bin":{
+        "node-mongo-mr":"runMapReduce.js"
+    },
+    "scripts":{
+        "test":"echo \"Error: no test specified\" && exit 1"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/phillro/node-mongo-mr.git"
+    },
+    "author":"Phill Rosen",
+    "license":"BSD",
+    "dependencies":{
+        "mongoose":">=2.0.1",
+        "cli":">=0.0.1",
+        "async":">=0.0.1"
+    }
+}
